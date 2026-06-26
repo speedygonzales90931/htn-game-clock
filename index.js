@@ -18,7 +18,7 @@ function getInGameTimeName() {
     hour12: false
   }).format(now);
 
-  return `🕒 In-Game Time • ${time}`;
+  return `In-Game Time • ${time}`;
 }
 
 async function updateChannel() {
